@@ -39,12 +39,12 @@ public class JavaFXCaller {
     
     public void JavaFXChartGen(LinkedHashMap<String, String> A) {
         try {
-            PrintWriter ForLineCharts = new PrintWriter(new FileOutputStream(this.pathtotxt));
+            PrintWriter WriteToFile = new PrintWriter(new FileOutputStream(this.pathtotxt));
             for (Map.Entry<String, String> entry : A.entrySet()) {
                 String parameter = entry.getKey()+":"+entry.getValue();
-                ForLineCharts.println(parameter);
+                WriteToFile.println(parameter);
             }
-            ForLineCharts.close();
+            WriteToFile.close();
         } catch (FileNotFoundException e) {}
         
         //Runs the Command to execute the Java Jar file
