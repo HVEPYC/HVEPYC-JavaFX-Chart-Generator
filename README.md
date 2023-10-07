@@ -1,6 +1,8 @@
 # HVEPYC JavaFX Chart Generator
  This is a Chart Generator that aids in the easy creation and display of Graphs using the JavaFX library. It can display Line Charts, Bar Graphs and Pie Charts.
 
+ This Chart Generator was initially created as a Standalone Application to fulfill the requirements of a Semester 1 2022/23 Fundamentals of Programming Project, and this is the official release of the Chart Generator.
+
  This Chart Generator is a Jar File, which is placed in the Current Working Directory of the Application which will be used to supply the Graph data to the Chart Generator. For a Java App which is run in an IDE (Eg: Netbeans), this Jar File can be placed inside the Project folder, beside the src folder and pom.xml file.
 
  Steps to Generate the Jar File are as follows:
@@ -27,4 +29,5 @@
 
  This Project can be integrated into any Open Source project, as long as it adheres to the guidelines set by this License.
 
+ Created by Harishankar Vinod (HVEPYC)
  Thank You.
