@@ -6,7 +6,7 @@
  This Chart Generator is a Jar File, which is placed in the Current Working Directory of the Application which will be used to supply the Graph data to the Chart Generator. For a Java App which is run in an IDE (Eg: Netbeans), this Jar File can be placed inside the Project folder, beside the src folder and pom.xml file.
 
  Steps to Generate the Jar File are as follows:
- - Make sure you are using a Windows based system, and that you have the Apache Netbeans IDE installed (Version 15 is Preferred).
+ - Make sure you are using a Windows based system, and that you have the Apache Netbeans IDE (Version 15 is Preferred) and the Java Development Kit (Version 19 is Preferred) installed.
  - Open the JavaFXChartGenerator Project Folder in Netbeans.
  - Right Click on the Project name in the Projects tab, and select the "Clean and Build" option.
  - Once completed, navigate to the JavaFXChartGenerator Project Folder, Open the target folder, and the Jar file named javaFXchartDisplay-1.0.jar will be present.
