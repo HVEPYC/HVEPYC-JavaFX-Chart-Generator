@@ -60,7 +60,7 @@ public class JavaFXCaller {
 }
 
 
-//References used for the creation of this Java File (and JavaFXProjectFile):
+//References used for the creation of this Java File:
 //https://www.javatpoint.com/how-to-create-a-file-in-java
 //https://www.geeksforgeeks.org/write-hashmap-to-a-text-file-in-java/
 //https://stackoverflow.com/questions/10514473/how-to-convert-a-string-to-a-hashmap
